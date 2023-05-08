@@ -9,7 +9,7 @@
 | ---------------------------------------------------| -----------------------------------------------------------------------------------------------------------------------|
 | `git status`                                       | Display the current state of the repository, including which files are staged or unstaged                                |
 | `git add <file>`                                   | Stage a file for commit                                                                                                 |
-| `git add .` or `git add -A`                        | Stage all changes (including untracked files) for commit                                                               |
+| `git add .`                                        | Stage all changes (including untracked files) for commit                                                               |
 | `git commit -m "<message>"`                        | Commit staged changes with a descriptive message                                                                        |
 | `git push origin <branch>`                         | Push local commits to a remote repository on the specified branch                                                        |
 | `git clone <url>`                                  | Clone a remote repository to your local machine                                                                        |
@@ -20,9 +20,9 @@
 | `git branch`                                       | List all branches in the repository                                                                                     |
 
 
-## Other usefull
+## Other useful Commands
 
-
+| Command                                            | Description                                                                                                             |
 | ---------------------------------------------------| -----------------------------------------------------------------------------------------------------------------------|
 | `git log`                                          | Show the commit history of the current branch                                                                           |
 | `git merge <branch-name>`                          | Merge the specified branch into the current branch                                                                      |
